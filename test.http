@@ -1,0 +1,30 @@
+POST http://localhost:8080/signup
+Content-Type: application/json
+
+{
+  "email": "adam.metal@codecool.com",
+  "password": "1234"
+}
+
+###
+POST http://localhost:8080/signin
+Content-Type: application/json
+
+{
+  "email": "adam.metal@codecool.com",
+  "password": "1234"
+}
+
+###
+GET http://localhost:8080/profile
+
+###
+GET http://localhost:8080/test
+
+###
+POST http://localhost:8080/test
+Content-Type: application/json
+
+{
+  "answerIndex":3
+}
